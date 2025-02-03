@@ -41,7 +41,7 @@ export default function Home() {
 			</p>
 			<p>
 				Er fährt den Fiesta durch <Notable r={5}>Ennsdorfs</Notable> Hood, seit
-				dem Bundesheer gehts im garnicht gut.
+				dem Bundesheer gehts im gar nicht gut.
 			</p>
 			<p>
 				Für <Notable r={-7}>Drink</Notable> immer zu haben, trotz all der
@@ -53,9 +53,12 @@ export default function Home() {
 			</p>
 			<p>
 				Bis Dahin, gute Fahrt im Fiest, bis der{" "}
-				<Notable r={-3}>Zahnriehmen</Notable> fliegt oder das Getriebe spiest.
+				<Notable r={-3}>Zahnriemen</Notable> fliegt oder das Getriebe spiest.
 			</p>
-			<p>So Jonas das wars, und das wars auch, aber auch das wars nicht.</p>
+			<p>
+				So Jonas das wars, wir freuen uns mit dir,{" "}
+				<Notable r={6}>ALLES GUTE</Notable> kumm trink ma a Bier.
+			</p>
 			{images.map((image, i) => (
 				<Image
 					alt={image}
