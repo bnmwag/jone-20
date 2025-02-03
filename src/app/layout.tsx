@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 const display = Chewy({
   variable: "--font-display",
-  weight: "400"
+  weight: "400",
+  subsets: ["latin"],
 })
 
 export const metadata: Metadata = {
